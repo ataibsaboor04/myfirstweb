@@ -25,6 +25,10 @@ button {
 	background-color: rgba(38, 255, 129, 1);
 }
 
+.indent {
+	margin-left: 20px;
+}
+
 li a {
 	color: rgba(255, 38, 172, 1);
 }
