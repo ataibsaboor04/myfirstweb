@@ -1,0 +1,59 @@
+body {
+	background-color: rgb(41, 40, 39);
+	font-family: sans-serif;
+}
+
+nav {
+	background-color: black;
+	margin: 15px;
+	padding: 5px;
+}
+
+.nav {
+	color: white;
+	font-family: monospace;
+	font-size: 25px;
+	font-style: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+	background-color: white;
+}
+button {
+	background-color: rgba(38, 255, 129, 1);
+}
+
+li a {
+	color: rgba(255, 38, 172, 1);
+}
+
+p {
+	font-size: 12pt;
+	color: white;
+}
+
+.submit {
+    display: flex;
+    justify-content: flex-end;
+}
+
+h1 {
+	color: rgba(189, 235, 52, 1);
+}
+
+h2, h3, caption {
+	font-family: sans-serif;
+	color: rgba(43, 208, 217, 1);
+}
+
+#table {
+	background-color: white;
+	font-size: 15pt;
+	text-align: center;
+}
+
+label, input {
+	color: rgba(255, 129, 61, 1);
+}
