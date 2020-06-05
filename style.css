@@ -17,6 +17,10 @@ nav {
 	text-decoration: none;
 }
 
+a {
+	text-decoration: none;
+}
+
 a:hover {
 	color: black;
 	background-color: white;
@@ -60,4 +64,9 @@ h2, h3, caption {
 
 label, input {
 	color: rgba(255, 129, 61, 1);
+}
+
+footer, footer a {
+	background-color: black;
+	color: white
 }
