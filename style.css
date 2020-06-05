@@ -11,7 +11,7 @@ nav {
 
 .nav {
 	color: white;
-	font-family: monospace;
+	/*font-family: monospace;*/
 	font-size: 25px;
 	font-style: bold;
 	text-decoration: none;
@@ -62,7 +62,7 @@ h2, h3, caption {
 	text-align: center;
 }
 
-label, input {
+label, input, .gender {
 	color: rgba(255, 129, 61, 1);
 }
 
