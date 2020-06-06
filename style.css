@@ -34,7 +34,8 @@ button {
 }
 
 li a {
-	color: rgba(255, 38, 172, 1);
+	color: rgba(255, 148, 210, 1);
+	font-weight: bold;
 }
 
 p {
@@ -60,6 +61,11 @@ h2, h3, caption {
 	background-color: white;
 	font-size: 15pt;
 	text-align: center;
+}
+
+table caption {
+	background-color: rgba(31, 222, 161, 1);
+	color: black;
 }
 
 label, input, .gender {
