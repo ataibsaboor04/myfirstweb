@@ -3,8 +3,22 @@ body {
 	font-family: sans-serif;
 }
 
-nav {
+header {
 	background-color: black;
+}
+
+header h1 {
+	text-align: center;
+	font-size: 400%;
+	font-family: sans-serif;
+	background-color: rgba(5, 99, 99, 1);
+	color: white;
+	line-height: 100px;
+	margin-bottom: 0px;
+}
+
+
+nav {
 	margin: 15px;
 	padding: 5px;
 }
@@ -45,7 +59,7 @@ p {
 	text-align: justify;
 }
 
-p, h1, h2, h3, section ul, table {
+p, h2, h3, section ul, table {
 	margin-left: 200px;
 	margin-right: 200px
 }
@@ -55,9 +69,6 @@ p, h1, h2, h3, section ul, table {
     justify-content: flex-end;
 }
 
-h1 {
-	color: rgba(189, 235, 52, 1);
-}
 
 h2, h3, caption {
 	font-family: sans-serif;
