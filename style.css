@@ -15,6 +15,7 @@ nav {
 	font-size: 25px;
 	font-style: bold;
 	text-decoration: none;
+	line-height: 30px;
 }
 
 a {
@@ -30,7 +31,7 @@ button {
 }
 
 .indent {
-	margin-left: 20px;
+	margin-left: 40px;
 }
 
 li a {
@@ -41,6 +42,12 @@ li a {
 p {
 	font-size: 12pt;
 	color: white;
+	text-align: justify;
+}
+
+p, h1, h2, h3, section ul, table {
+	margin-left: 200px;
+	margin-right: 200px
 }
 
 .submit {
@@ -58,9 +65,12 @@ h2, h3, caption {
 }
 
 #table {
-	background-color: white;
+	background-color: rgba(224, 222, 222, 1);
 	font-size: 15pt;
 	text-align: center;
+	margin-right: 200px;
+	margin-left: 200px;
+	width: 60%;
 }
 
 table caption {
