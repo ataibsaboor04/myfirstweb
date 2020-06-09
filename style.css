@@ -4,6 +4,9 @@ body {
 	font-size: 120%;
 }
 
+h1 {
+	color: rgba(197, 145, 217, 1);
+}
 
 main {
 	margin: 0% 10%;
@@ -130,6 +133,10 @@ footer, footer a, footer a:hover {
 
 footer a:hover {
 	text-decoration: underline;
+}
+
+footer span {
+	cursor: pointer;
 }
 
 footer i {
