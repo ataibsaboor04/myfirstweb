@@ -8,7 +8,7 @@ h1 {
 	color: rgba(197, 145, 217, 1);
 }
 
-main, footer {
+main, footer li {
 	margin: 0% 10%;
 }
 
@@ -115,6 +115,7 @@ h2, h3, caption {
 	margin-right: 200px;
 	margin-left: 200px;
 	width: 60%;
+	border-collapse: collapse;
 }
 
 table caption {
