@@ -72,7 +72,7 @@ nav {
 
 .nav:hover {
 	color: white;
-	background-color: purple;
+	background-color: rgba(94, 19, 99, 1);
 }
 
 button {
