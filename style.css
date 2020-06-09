@@ -8,7 +8,7 @@ h1 {
 	color: rgba(197, 145, 217, 1);
 }
 
-main {
+main, footer {
 	margin: 0% 10%;
 }
 
@@ -124,6 +124,11 @@ table caption {
 
 label, input, .gender {
 	color: rgba(255, 129, 61, 1);
+}
+
+footer {
+	font-size: .8em;
+	font-weight: bold;
 }
 
 footer, footer a, footer a:hover {
