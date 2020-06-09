@@ -4,9 +4,6 @@ body {
 	font-size: 120%;
 }
 
-header {
-	background-color: black;
-}
 
 main {
 	margin: 0% 10%;
@@ -16,14 +13,10 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
-	color: white;
-	background-color: darkgreen;
-}
 
-
-#mainfig {
+#mainfig, hr {
 	margin: 0px;
+	padding: 0px;
 }
 
 #logo {
@@ -44,25 +37,42 @@ header h1 {
 	text-align: center;
 }
 
-#web, #web:hover {
+#webdev, #webdev:hover {
 	background-color: white;
 	color: rgba(94, 19, 99, 1);
 }
 
 
+#top {
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+
+#bottom {
+	margin-bottom: 15px;
+	margin-top: 0px;
+}
+
 nav {
-	margin: 15px;
-	padding: 5px;
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+	line-height: 45px;
 }
 
 .nav {
+	display: inline-block;
 	color: white;
-	/*font-family: monospace;*/
 	font-size: 1.2em;
 	font-style: bold;
 	text-decoration: none;
-	line-height: 25px;
-	padding: 15px;
+	width: 130px;
+	text-align: center;
+}
+
+.nav:hover {
+	color: white;
+	background-color: purple;
 }
 
 button {
