@@ -25,7 +25,7 @@ main {
 }
 
 .logo {
-	background-image: url("images/login.jpg");
+	background-image: url("../images/login.jpg");
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
