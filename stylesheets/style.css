@@ -41,11 +41,23 @@ header h1 {
 	text-align: center;
 }
 
-#webdev, #webdev:hover {
+#webdev {
 	background-color: white;
 	color: rgba(94, 19, 99, 1);
+	border-radius: 15px;
+	background-color: green;
+	color: white;
+	font-size: 45px;
+	transition: border-radius, background-color, color, font-size;
+	transition-timing-function: linear;
+	transition-duration: .5s;
 }
 
+#webdev:hover {
+	background-color: white;
+	color: rgba(94, 19, 99, 1);
+	font-size: 100%;
+}
 
 #top {
 	margin-top: 15px;
@@ -77,6 +89,7 @@ nav {
 .nav:hover, #current {
 	color: white;
 	background-color: rgba(94, 19, 99, 1);
+	border-radius: 20px;
 }
 
 button {
